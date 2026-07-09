@@ -1,0 +1,12 @@
+main_payment_type,installment_segment,delivered_orders,product_revenue,average_order_value,unique_customers
+credit_card,7+ installments,11751,3539911.73,301.24,11471
+credit_card,2-3 installments,22020,2502391.42,113.64,21667
+credit_card,4-6 installments,15696,2463035.35,156.92,15423
+boleto,1 installment,19191,2329807.64,121.4,18717
+credit_card,1 installment,23358,1926118.19,82.46,22941
+voucher,1 installment,2783,244916.95,88.0,2716
+debit_card,1 installment,1484,177868.46,119.86,1469
+voucher,2-3 installments,139,24777.53,178.26,138
+voucher,4-6 installments,43,8659.97,201.39,43
+voucher,7+ installments,12,3875.9,322.99,12
+unknown,unknown,1,134.97,134.97,1

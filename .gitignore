@@ -1,0 +1,27 @@
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
+.ipynb_checkpoints/
+.venv/
+.venv*/
+venv/
+
+# Raw Olist files are large. Keep them local and do not upload them to GitHub.
+olist_*.csv
+product_category_name_translation.csv
+data/raw/
+
+# Large generated fact tables can be recreated from SQL.
+data/processed/fact_orders_delivered.csv
+data/processed/fact_order_items_delivered.csv
+data/processed/customer_lifetime.csv
+outputs/*
+
+# Keep folder structure in Git when needed.
+!data/processed/.gitkeep
+!outputs/figures/
+outputs/figures/*
+!outputs/figures/.gitkeep
+!outputs/figures/*.png
