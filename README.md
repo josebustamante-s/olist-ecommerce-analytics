@@ -82,6 +82,12 @@ python -m pip install -r requirements.txt
 streamlit run app/streamlit_app.py
 ```
 
+Para ejecutar además el notebook y regenerar los outputs SQL, instala el entorno de desarrollo:
+
+```bash
+python -m pip install -r requirements-dev.txt
+```
+
 ## Enfoque analítico y decisiones de modelado
 
 El análisis parte del [dataset público de Olist en Kaggle](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce). La lógica se diseñó para evitar duplicar ingresos al relacionar órdenes con ítems, pagos y reseñas.
