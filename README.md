@@ -4,6 +4,8 @@ Proyecto de portafolio de Data Analyst que transforma datos transaccionales de O
 
 **Stack:** SQL · DuckDB · Python · pandas · Jupyter · Streamlit · Plotly
 
+**Dashboard en línea:** [Abrir dashboard interactivo](https://olist-ecommerce-analytics-jb.streamlit.app)
+
 **Datos fuente:** [Olist Brazilian E-Commerce Public Dataset en Kaggle](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce). Los CSV crudos no se incluyen en este repositorio.
 
 **Pregunta de negocio:** ¿dónde debería enfocar Olist sus esfuerzos comerciales y operacionales para crecer, mejorar la recompra y proteger la satisfacción del cliente?
@@ -60,8 +62,6 @@ La aplicación permite explorar los KPIs y los principales drivers en cuatro pes
 - Ventas y categorías: ranking y relación entre ingresos, satisfacción y atraso.
 - Clientes: recurrencia, tiempo entre compras y tasa de recompra por estado.
 - Entrega y satisfacción: relación entre cumplimiento de la promesa, calificación y experiencia logística por estado.
-
-> El enlace público del dashboard se añadirá después de desplegar la aplicación en Streamlit Community Cloud.
 
 ### Capturas del dashboard
 
